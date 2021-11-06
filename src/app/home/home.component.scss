@@ -1,0 +1,43 @@
+.card-properties {
+    width: 100%;
+    height: 85vh;
+    margin-top: 25px;
+}
+
+.card-content-peroperties {
+    margin-top: 25px;
+}
+
+.section-properties {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    background-color: rgb(40, 44, 52);
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.section-properties p {
+    color: whitesmoke;
+    margin-top: 13px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.button-properties {
+    margin-left: 10px;
+    margin-top: 10px;
+}
