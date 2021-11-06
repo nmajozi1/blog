@@ -15,17 +15,17 @@
 
         <p><b>My Key</b></p>
         <section class="section-properties">
-            <p></p>
+            <p>{{ key }}</p>
         </section>
 
         <p><b>My Secret</b></p>
         <section class="section-properties">
-            <p></p>
+            <p>{{ secret }}</p>
         </section>
 
         <p><b>My Own configuration</b></p>
         <section class="section-properties">
-            <p>serverless config credentials --provider aws --key  --secret </p>
+            <p>serverless config credentials --provider aws --key {{ key }} --secret {{ secret }}</p>
         </section>
     </mat-card-content>
     <mat-divider inset></mat-divider>

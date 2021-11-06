@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  AWS_KEY: process.env.AWS_KEY,
-  AWS_SECRET: process.env.AWS_SECRET,
+  AWS_KEY: 'to be added',
+  AWS_SECRET: 'to be added',
 };
